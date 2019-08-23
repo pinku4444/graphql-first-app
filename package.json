@@ -1,0 +1,28 @@
+{
+  "name": "firstApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  --exec js,graphql babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "apollo-server": "^2.8.1",
+    "cors": "^2.8.5",
+    "graphql": "^14.4.2",
+    "graphql-import": "^0.7.1",
+    "graphql-tools": "^4.0.5",
+    "uuid": "^3.3.2"
+  }
+}
